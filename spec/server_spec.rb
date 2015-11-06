@@ -14,10 +14,6 @@ describe 'Server Service' do
     get "/homepage"
     expect(last_response).to be_ok
   end
-  it "hould load the post details page" do
-    get "/post_details/:index"
-    expect(last_response).to be_ok
-  end
 
 end
 =begin
